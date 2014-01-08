@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="mvc.spring.HelloControllerTest" tests="1" failures="0" errors="0" timestamp="2014-01-07T03:31:36" hostname="ry-PC" time="0.012">
+  <properties/>
+  <testcase name="should_render_hello_page_contains_the_message_value" classname="mvc.spring.HelloControllerTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: "jacoco"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework:spring-webmvc:3.2.0.RELEASE",
+            "javax.servlet:servlet-api:2.5",
+            "javax.servlet.jsp:jsp-api:2.1",
+            "com.google.guava:guava:15.0"
+
+    testCompile "junit:junit:4.11",
+            "org.mockito:mockito-all:1.9.5",
+            "org.jacoco:org.jacoco.ant:0.6.4.201312101107",
+            "org.jacoco:org.jacoco.agent:0.6.4.201312101107",
+            "org.jacoco:org.jacoco.report:0.6.4.201312101107"
+}
